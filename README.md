@@ -25,7 +25,6 @@ Construct a Python program to read a text from a file. Identify the verbs from t
 ```python
 import nltk
 from nltk.corpus import wordnet
-
 def get_verbs(text):
     verbs = []
     sentences = nltk.sent_tokenize(text)
@@ -36,29 +35,22 @@ def get_verbs(text):
             if tag.startswith('V'):
                 verbs.append(word)
     return verbs
-
 def get_synonyms(word):
     synonyms = []
     for syn in wordnet.synsets(word):
         for lemma in syn.lemmas():
             synonyms.append(lemma.name())
     return synonyms
-
 def main():
     file_path = 'sample.txt'
-    
     with open(file_path, 'r') as file:
-        text = file.read()
-        
-    verbs = get_verbs(text)
-    
+        text = file.read()       
+    verbs = get_verbs(text)  
     for verb in verbs:
         synonyms = get_synonyms(verb)
         print(f"Synonyms for '{verb}': {synonyms}")
-
 if __name__ == '__main__':
     main()
-
 ```
 ## Output
 
