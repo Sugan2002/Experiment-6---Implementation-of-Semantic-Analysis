@@ -54,7 +54,7 @@ if __name__ == '__main__':
 ```
 ## Output
 
-![image](https://github.com/Sugan2002/Experiment-6---Implementation-of-Semantic-Analysis/assets/77089743/f4fe8914-9378-440d-85ef-a206a7be7424)
+![image](https://github.com/Sugan2002/Experiment-6---Implementation-of-Semantic-Analysis/assets/77089743/a881bf3a-6246-4104-8350-46e33abe8d8d)
 
 
 ## Result
