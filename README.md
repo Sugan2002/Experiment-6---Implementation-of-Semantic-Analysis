@@ -1,4 +1,6 @@
-# Implementation of Semantic Analysis
+### EXPERIMENT 6
+### DATE : 01.06.2023
+# <p align="center"> Implementation of Semantic Analysis </P> 
 
 ## Aim
 Construct a Python program to read a text from a file. Identify the verbs from the text file and provide synonyms for all verbs using Natural Language Processing.
